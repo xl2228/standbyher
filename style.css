@@ -1,0 +1,159 @@
+                /* index styling */
+body{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Shippori Mincho B1', serif;
+}
+html{
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+#container{
+  height:100%;
+  text-align: justify;
+}
+
+.background{
+  background: rgb(247,204,223);
+  background: linear-gradient(180deg, rgba(247,204,223,1) 32%, rgba(255,255,255,1) 100%);
+}
+
+.banner {
+  height:300px;
+  background: rgb(172,202,237);
+  background: linear-gradient(180deg, rgba(172,202,237,1) 0%,
+  rgba(247,204,223,1) 100%);
+}
+
+.title{
+  position: relative;
+  text-align: center;
+  top: 100px;
+  font-size: 45px;
+  color:#6fa8e9;
+}
+
+.banner h4{
+  position: relative;
+  text-align: center;
+  color:white;
+  top: 105px;
+}
+
+#intro{
+  /* background-color: #555; */
+  height:300px;
+  padding: 100px;
+}
+
+#introBox{
+  position: relative;
+  background-image: url(images/1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 48%;
+}
+
+#content{
+  position: relative;
+  left: 650px;
+  bottom: 10px;
+  color: #2B4059;
+}
+
+#seTitle{
+  text-align: center;
+  color:#6fa8e9;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 40px;
+  /* border-bottom: 3px solid #689DD9; */
+}
+
+.branch {
+  height: 350px;
+  padding: 100px 100px 0px 100px;
+  /* background-color: green; */
+}
+.branch img{
+  float: left;
+  padding-right: 40px;
+}
+h3{
+  color:#2B4059;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.branch p{
+  color:#2B4059;
+}
+
+.social{
+  background-color: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.socialLinks{
+  /* background-color: #fff; */
+  display: inline-block;
+  padding: 10px;
+  margin:10px;
+  vertical-align: middle;
+
+}
+
+  /* page styling */
+
+.mainContainer{
+  padding: 0px;
+  margin: 0px;
+}
+
+.navBar{
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.nav{
+  display: inline-block;
+  padding: 10px;
+  margin:10px;
+  vertical-align: middle;
+}
+
+.block1{
+  text-align: justify;
+  padding: 100px;
+  font-size: 20px;
+}
+
+.block2{
+  text-align: justify;
+  padding: 0px 100px 50px 100px;
+  font-size: 20px;
+}
+
+.inContent{
+  color: #2B4059;
+  display: inline-block;
+  padding: 20px;
+  width: 500px;
+  vertical-align: middle;
+}
+
+.gallery{
+  padding: 30px 0px 30px 0px;
+}
+
+.galleryImage{
+  display: inline-block;
+  width: 260px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
