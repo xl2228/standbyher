@@ -127,6 +127,16 @@ h3{
   vertical-align: middle;
 }
 
+a:link{
+  color:#2B4059;
+
+}
+a:visited{
+  color:#6fa8e9;
+}
+a:hover{
+  color: white;
+}
 .block1{
   text-align: justify;
   padding: 100px;
